@@ -37,7 +37,7 @@ app.get("/about", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help is here!",
-    message: "Handlebars & Express are just great",
+    message: "Help is always available for you here",
     name: "Zacchaeus Napuo"
   });
 });
