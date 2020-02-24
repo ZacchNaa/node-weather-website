@@ -20,7 +20,12 @@ const forecast = (longitude, latitude, callback) => {
           body.currently.temperature +
           " degrees out. There is a " +
           body.currently.precipProbability +
-          "% chance of rain."
+          "% chance of rain. The temperature is " +
+          body.daily.data[0].temperatureHigh +
+          " high. The time is " +
+          body.daily.data[0].time +
+          " and the timezone is " +
+          body.timezone
       );
     }
   });
