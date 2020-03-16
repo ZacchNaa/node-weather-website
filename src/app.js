@@ -38,8 +38,8 @@ app.get("/about", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    title: "Help is here!",
-    message: "Help is always available for you here",
+    title: "Get in touch!",
+    message: "Github account",
     name: "Zacchaeus Napuo"
   });
 });

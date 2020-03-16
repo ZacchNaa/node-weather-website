@@ -13,7 +13,30 @@ body {
 .main-content {
   flex-grow: 1; /*the main content should take up the remaining space*/
 }
-
+#card-of-links {
+  position: absolute;
+  top: 17em;
+  left: 37em;
+  width: 605px;
+  margin: 16px auto;
+  border: 1px solid, #eeeeee;
+  box-shadow: 1px 1px 2px 3px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+#web-developer {
+  text-align: end;
+  margin: 0;
+  padding: 12px;
+  color: darkseagreen;
+}
+#card-of-links ul li {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: end;
+  margin: 0;
+  padding: 12px;
+}
 footer {
   color: #888888;
   border-top: 1px solid #eeeeee;
